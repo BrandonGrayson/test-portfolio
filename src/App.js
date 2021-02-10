@@ -1,4 +1,5 @@
 import Hello from "../src/components/hello"
+import About from "../src/components/About"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -17,7 +18,8 @@ function App() {
         < Hello />
         </Route>
 
-        <Hello />
+      
+
       </div>
     </Router>
 
