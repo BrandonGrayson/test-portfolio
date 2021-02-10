@@ -1,8 +1,16 @@
 import React from "react";
+import "../styles/hello.css"
+
+const styles = {
+    hero: {
+        background: "red",
+        height: "100vh"
+    }
+}
 
 const Hello = () => {
     return (
-        <div className='container hero d-flex flex-row align-itmes-center'>
+        <div className='container hero d-flex flex-row justify-content-center col-sm-12 col-md-12 col-lg-12 col-xl-12' style={styles.hero}>
             <div className='flex-column'>
                 <h1>Hello.</h1>
                 <h1>I Am</h1>
@@ -11,7 +19,7 @@ const Hello = () => {
 
 
 
-            <img src="./img/Brandon_cropped.jpg" class="img-thumbnail" alt="..." style={{ 'maxWidth': '150px'}} / >
+            <img src="./img/Brandon_cropped.jpg" class="img-thumbnail" alt="..." style={{ 'maxWidth': '150px', 'maxHeight': '100px'}} / >
         </div>
     )
     
