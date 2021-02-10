@@ -14,11 +14,14 @@ function App() {
     <Router>
       <div>
 
-        <Route path="/">
+        <Route exact path="/">
         < Hello />
         </Route>
 
-      
+        <Route exact path="/about">
+          <About />
+        </Route>
+
 
       </div>
     </Router>
