@@ -2,7 +2,7 @@ import React from "react";
 
 const Hello = () => {
     return (
-        <div className='container hero d-flex flex-row'>
+        <div className='container hero d-flex flex-row align-itmes-center'>
             <div className='flex-column'>
                 <h1>Hello.</h1>
                 <h1>I Am</h1>
@@ -11,7 +11,7 @@ const Hello = () => {
 
 
 
-            <img src="./img/Brandon_cropped.jpg" class="img-thumbnail" alt="..."/>
+            <img src="./img/Brandon_cropped.jpg" class="img-thumbnail" alt="..." style={{ 'maxWidth': '150px'}} / >
         </div>
     )
     
