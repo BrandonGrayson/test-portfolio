@@ -21,9 +21,8 @@ const Hello = () => {
                 <h1>Brandon</h1>
             </div>
 
-
-
             <img src="./img/Brandon_cropped.jpg" class="img-thumbnail" alt="..." style={{ 'maxWidth': '150px', 'maxHeight': '100px', 'marginTop': '30vh'}}  / >
+
         </div>
     )
     
