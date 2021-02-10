@@ -6,6 +6,9 @@ const Hello = () => {
             <h1>Hello.</h1>
             <h1>I Am</h1>
             <h1>Brandon</h1>
+
+        
+            <img src="./img/Brandon_cropped.jpg" class="img-thumbnail" alt="..."/>
         </div>
     )
     
