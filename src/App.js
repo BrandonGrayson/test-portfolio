@@ -1,5 +1,6 @@
 import Hello from "../src/components/hello"
 import About from "../src/components/About"
+import Portfolio from "../src/components/Portfolio"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -20,6 +21,10 @@ function App() {
 
         <Route exact path="/about">
           <About />
+        </Route>
+
+        <Route exact path = "/portfolio" >
+          < Portfolio />
         </Route>
 
 
