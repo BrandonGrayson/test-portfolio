@@ -1,18 +1,41 @@
 import Hello from "../src/components/hello"
+import About from "../src/components/About"
+import Portfolio from "../src/components/Portfolio"
+import Contact from "../src/components/Contact"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link 
+  Link
 } from "react-router-dom"
 
 function App() {
   return (
-    <div>
-      <Hello />
-    </div>
+    <Router>
+      <div>
+
+        <Route exact path="/">
+        < Hello />
+        </Route>
+
+        <Route exact path="/about">
+          <About />
+        </Route>
+
+        <Route exact path = "/portfolio" >
+          < Portfolio />
+        </Route>
+
+        <Route exact path ="/contact">
+          < Contact />
+        </Route>
+
+
+      </div>
+    </Router>
+
   );
 }
 
