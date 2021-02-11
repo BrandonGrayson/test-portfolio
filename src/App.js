@@ -4,6 +4,7 @@ import Portfolio from "../src/components/Portfolio"
 import Contact from "../src/components/Contact"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./styles/hello.css"
 import {
   BrowserRouter as Router,
   Switch,
