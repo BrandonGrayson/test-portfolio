@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/hello.css"
+import { Link } from "react-router-dom"
 
 const styles = {
     hero: {
@@ -16,8 +17,9 @@ const Hello = () => {
     return (
         <div className='container hero d-flex flex-row justify-content-center col-sm-12 col-md-12 col-lg-12 col-xl-12' style={styles.hero}>
             <div className='flex-column' style={styles.el}>
+                
                 <h1>Hello.</h1>
-                <h1>I Am</h1>
+        < Link to='/about'><h1>I Am</h1></Link>  
                 <h1>Brandon</h1>
             </div>
 
