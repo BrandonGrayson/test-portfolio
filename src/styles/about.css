@@ -1,11 +1,13 @@
-.container {
+.jumbotron {
     background: black;
     height: 100%;
     min-height: 100vh;
 }
 
-.txt{
-    font-size: 60px;
+.about {
     color: white;
-    padding-top: 20vh;
+}
+
+.aboutTxt {
+    color: white;
 }

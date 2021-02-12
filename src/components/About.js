@@ -1,10 +1,10 @@
 import React from "react"
-import "../styles/hello.css"
+import "../styles/about.css"
 
 
 const About = () => {
     return (
-        <div className='container col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+        <div className='container jumbotron col-xs-12 col-sm-12 col-md-12 col-lg-12'>
             <div className='container hero'>
             <h1 className='txt'>I design and build digital products</h1>
             </div>
