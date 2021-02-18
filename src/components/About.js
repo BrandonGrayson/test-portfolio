@@ -9,7 +9,6 @@ const About = () => {
             <h1 className='txt'>I design and build digital products</h1>
             </div>
             
-
             <div>
                 <h3 className='aboutTxt' >About</h3>
 
